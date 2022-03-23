@@ -20,6 +20,6 @@ postRun:
     - node --version
 configFile: scripts/jest/config.source-www.js
 parallelism: 20
-tier: xsmall
+tier: small
 nodeVersion: 14.17.6
-version: 2.1
+version: 2.2
