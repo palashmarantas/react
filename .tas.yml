@@ -19,7 +19,7 @@ postRun:
   command:
     - node --version
 configFile: scripts/jest/config.source-www.js
-parallelism: 20
+parallelism: 2
 tier: small
 nodeVersion: 14.17.6
 version: 2.2
