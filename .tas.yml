@@ -1,7 +1,7 @@
 ---
 framework: jest
 blocklist:
-   - packages/react-dom/src/__tests__/ReactDOMServerIntegrationHooks-test.js
+   - "packages/react-dom/src/__tests__/ReactDOMServerIntegrationHooks-test.js"
 postMerge:
   env:
       NODE_ENV: development
