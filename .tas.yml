@@ -23,4 +23,4 @@ postRun:
 configFile: scripts/jest/config.source-www.js
 parallelism: 2
 nodeVersion: 14.17.6
-version: 2.3
+version: 2.4
