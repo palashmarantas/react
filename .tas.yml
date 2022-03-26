@@ -2,6 +2,8 @@
 framework: jest
 blocklist:
    - "packages/react-dom/src/__tests__/ReactDOMServerIntegrationHooks-test.js"
+   - "packages/react-reconciler/src/__tests__/ReactSchedulerIntegration-test.js"
+   - 
 postMerge:
   env:
       NODE_ENV: development
